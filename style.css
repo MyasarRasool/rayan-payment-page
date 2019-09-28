@@ -1,4 +1,7 @@
-
+a {
+  pointer-events: none;
+  cursor: default;
+}
 .windows10support {
     background: #0067B8;
     color: #fff;
@@ -7,6 +10,11 @@
         font-size: 1.4em;
     font-weight: normal;
 }
+.windows10support  .nav-link.disabled {
+    color: #fff;
+}
+       
+
 footer {
     background: #F2F2F2;
 }
@@ -26,4 +34,24 @@ footer a {
     word-break: break-word;
         font-size: 11px;
     line-height: 16px
+}
+
+.navbar-custom-bg  a{
+   color: #262626 !important;
+    display: inline-block;
+   
+}
+.form-control {
+    position: relative;
+    outline: 2px solid transparent;
+    border: 0;
+    display: block;
+    width: 296px;
+   
+   border-radius: 0px;
+    border: 2px solid rgba(0,0,0,.6);
+    background: #fff;
+}
+.pl-ziro .form-control{
+    width: 100px; 
 }
