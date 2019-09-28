@@ -1,0 +1,29 @@
+
+.windows10support {
+    background: #0067B8;
+    color: #fff;
+}
+.windows10support h1{
+        font-size: 1.4em;
+    font-weight: normal;
+}
+footer {
+    background: #F2F2F2;
+}
+footer ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+footer h3{
+        color: #616161;
+    word-break: break-word;
+    font-size: 15px;
+    line-height: 20px;
+}
+footer a {
+        color: #616161;
+    word-break: break-word;
+        font-size: 11px;
+    line-height: 16px
+}
